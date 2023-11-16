@@ -1,0 +1,35 @@
+
+.expandable-navbar-section {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+/* maybe you want hover (it breaks click so you will want to disable that)
+
+.dropdown:hover .dropdown-menu {
+
+    display: block;
+    margin: 0.0rem 0rem 0;
+}
+*/
+
+.dropdown-menu {
+
+    overflow: hidden;
+    min-width: 100%;
+	margin: 0.0rem .9rem 0;
+	border: 0px ;
+	border-radius: 0rem;
+	box-shadow: 0 0 0 0;
+
+    ::ng-deep a.nav-link {
+        padding-right: var(--bs-spacer);
+        padding-left: var(--bs-spacer);
+        white-space: nowrap;
+    }
+}
+
+
