@@ -1,6 +1,7 @@
 # dspace7.6Dropdpown
-The code for adding a drop down to the navbar
 https://wiki.lyrasis.org/display/DSDOC7x/User+Interface+Customization#UserInterfaceCustomization-CustomizeNavigationLinksinHeader
+
+The code for adding a drop down to the navbar
 
 This code allows you to add a drop down to the navigation bar in dspace 7.6
 
